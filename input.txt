@@ -1,13 +1,19 @@
-push_back 3
-push_front 14
-size
-clear
-push_front 1
-back
-push_back 2
-front
-pop_back
-size
-pop_front
-size
-exit
+14
+0 1
+0 345
+1
+0 4346
+1
+0 2435
+1
+0 235
+0 5
+0 365
+1
+1
+1
+1
+1
+1
+1
+1
