@@ -39,4 +39,30 @@ public class LogUtil {
         }
         System.out.println("---");
     }
+
+    public static void printArray(Object[] array) {
+        int iMax = array.length - 1;
+        StringBuilder b = new StringBuilder();
+        for (int i = 0; ; i++) {
+            b.append(array[i]);
+            if (i == iMax) {
+                break;
+            }
+            b.append(" ");
+        }
+        System.out.println(b);
+    }
+
+    public static void rPrintArray(Object[] array) {
+        int iMax = array.length - 1;
+        StringBuilder b = new StringBuilder();
+        for (int i = iMax; ; i--) {
+            b.append(array[i]);
+            if (i == 0) {
+                break;
+            }
+            b.append(" ");
+        }
+        System.out.println(b);
+    }
 }
