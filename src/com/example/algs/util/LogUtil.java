@@ -1,5 +1,6 @@
 package com.example.algs.util;
 
+import java.util.Arrays;
 import java.util.Queue;
 
 public class LogUtil {
@@ -29,5 +30,13 @@ public class LogUtil {
 
         System.out.println(logLine1);
         System.out.println(logLine2);
+    }
+
+    public static void printDp(int[][] dp) {
+        System.out.println("dp:");
+        for (int[] ints : dp) {
+            System.out.println(Arrays.toString(ints));
+        }
+        System.out.println("---");
     }
 }
