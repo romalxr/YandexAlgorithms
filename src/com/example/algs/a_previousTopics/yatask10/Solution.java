@@ -1,4 +1,4 @@
-package com.example.algs.a_previousTopics.yatask1.yatask10;
+package com.example.algs.a_previousTopics.yatask10;
 
 import java.util.Scanner;
 
